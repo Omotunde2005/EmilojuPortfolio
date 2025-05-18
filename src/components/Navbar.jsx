@@ -11,13 +11,13 @@ export default function Navbar() {
   return (
     <nav className="p-6 relative">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-444554">WISDOM NWOKOCHA</h1>
+        <h1 className="text-2xl font-bold text-444554">EDUN RILWAN</h1>
         
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-4">
-          <a href="https://github.com/wise4rmgod" className="hover:text-blue-400"><Github /></a>
-          <a href="https://www.linkedin.com/in/joklinztech/" className="hover:text-blue-400"><Linkedin /></a>
-          <a href="mailto:wise4rmgod@gmail.com" className="hover:text-blue-400"><Mail /></a>
+          <a href="https://github.com/Omotunde2005" className="hover:text-blue-400"><Github /></a>
+          <a href="https://www.linkedin.com/in/edun-rilwan/" className="hover:text-blue-400"><Linkedin /></a>
+          <a href="mailto:edunrilwan@gmail.com" className="hover:text-blue-400"><Mail /></a>
         </div>
 
         {/* Mobile Menu Button */}

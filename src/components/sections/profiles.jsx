@@ -6,44 +6,45 @@ const ProfileShowcase = () => {
 
   const profiles = [
     {
-      platform: "Substack",
-      username: "@wisdomnwokocha",
-      link: "https://substack.com/@wisdomnwokocha",
-      description: "Join and be part of my journey of life through my newsletter!",
+      platform: "Medium",
+      username: "@omobolanleedun",
+      link: "https://medium.com/@omobolanleedun",
+      description: "",
       color: "from-purple-500 to-blue-500",
       icon: "🗞️"
     },
     {
       platform: "Hashnode",
-      username: "@wise4rmgod",
-      link: "https://wise4rmgod.hashnode.dev/",
-      description: "Cloud & DevOps tutorials, best practices, and insights",
+      username: "@Emiloju",
+      link: "https://hashnode.com/@Emiloju",
+      description: "",
       color: "from-purple-500 to-blue-500",
       icon: "🌐"
     },
     {
       platform: "Dev.to",
-      username: "@wise4rmgod",
-      link: "https://dev.to/wise4rmgod",
-      description: "Web development articles and coding tutorials",
+      username: "@emiloju",
+      link: "https://dev.to/emiloju",
+      description: "",
       color: "from-black to-gray-800",
       icon: "👨‍💻"
     },
     {
       platform: "Hackernoon",
-      username: "@wise4rmgod",
-      link: "https://hackernoon.com/u/wise4rmgod",
-      description: "Deep tutorials on tech trends and programming",
+      username: "@omotundeedun_356grio8",
+      link: "https://hackernoon.com/u/omotundeedun_356grio8",
+      description: "",
       color: "from-green-500 to-emerald-700",
       icon: "🚀"
     },
+
     {
-      platform: "Resume",
-      username: "Download PDF",
-      link: "/resume.pdf",
-      description: "View my full professional experience and skills",
-      color: "from-red-500 to-orange-500",
-      icon: "📄"
+      platform: "The Python Code",
+      username: "Edun Rilwan",
+      link: "https://thepythoncode.com/author/edun-rilwan",
+      description: "",
+      color: "from-green-500 to-emerald-700",
+      icon: "👩‍💻🐍"
     }
   ];
 

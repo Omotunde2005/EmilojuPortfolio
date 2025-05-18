@@ -37,6 +37,9 @@ const ProjectSection = ({ title, projects, isEven }) => {
             {projects.map((project, index) => (
               <div key={index} className="px-3">
                 <div className={`${isEven ? 'bg-[#151821]' : 'bg-[#1a1f2e]'} text-thistle p-8 rounded-lg shadow-xl h-full`}>
+                  {
+                     project.img && <img src={ project.img } className="mb-6"></img>
+                  }
                   <h3 className="text-2xl font-semibold mb-4">{project.title}</h3>
                   <p className="text-gray-300 mb-6 text-sm leading-relaxed">
                     {project.description}
@@ -85,191 +88,161 @@ const Projects = () => {
       title: "Technical Articles",
       projects: [
         {
-          title: "Building an Image Generator with React and OpenAI",
-          description: "A comprehensive guide on integrating OpenAI's image generation capabilities with React applications.",
-          tags: ["React", "OpenAI", "Technical Writing"],
-          links: { preview: "https://hackernoon.com/a-guide-to-building-an-image-generator-with-react-and-openai" },
+          title: "How to build and deploy a Python library",
+          description: "A step-by-step guide on creating, packaging, and publishing your own Python library to PyPI using best practices.",
+          tags: ["Python", "PyPI", "Packaging", "Open Source"],
+          img: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdzdrv2ztjzsrn1n9gv3n.png",
+          links: {
+            preview: "https://dev.to/emiloju/how-to-build-and-deploy-a-python-library-4al2?utm_source=canva&utm_medium=iframely"
+          }
         },
         {
-          title: "PaLM API Guide for LLMs",
-          description: "A beginner's guide to working with Large Language Models using the PaLM API.",
-          tags: ["LLM", "PaLM API", "AI"],
-          links: { preview: "https://hackernoon.com/a-beginners-guide-to-using-large-language-models-llms-with-the-palm-api" },
+          title: "How to build a fully fledged telegram bot in Python",
+          description: "Learn how to build a feature-rich Telegram bot using Python, with step-by-step instructions and practical code examples.",
+          tags: ["Python", "Telegram", "Bot Development", "Automation"],
+          img: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb0arigooh8729rimwzzn.png",
+          links: {
+            preview: "https://dev.to/emiloju/how-to-build-a-fully-fledged-telegram-bot-in-python-2al0?utm_source=canva&utm_medium=iframely"
+          }
         },
         {
-          title: "Deploy React App to Kubernetes",
-          description: "A step-by-step guide on deploying React applications to Kubernetes using Docker and Minikube.",
-          tags: ["React", "Kubernetes", "Docker"],
-          links: { preview: "https://wise4rmgod.hashnode.dev/deploy-react-app-to-kubernetes-with-docker-and-minikube" },
+          title: "Wrap and Render Multiline Text on Images using Python's Pillow library",
+          description: "A hands-on tutorial that shows you how to use the Pillow library in Python to wrap and render multiline text onto images.",
+          tags: ["Python", "Pillow", "Image Processing", "Graphics"],
+          img: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhfxch616m1azqidknyww.jpeg",
+          links: {
+            preview: "https://dev.to/emiloju/wrap-and-render-multiline-text-on-images-using-pythons-pillow-library-2ppp?utm_source=canva&utm_medium=iframely"
+          }
         },
         {
-          title: "Scalable Node.js REST API Deployment",
-          description: "Tutorial on deploying a secure and scalable Node.js REST API with MongoDB on Aptible platform.",
-          tags: ["Node.js", "MongoDB", "DevOps"],
-          links: { preview: "https://hackernoon.com/deploying-a-scalable-and-secure-nodejs-rest-api-with-mongodb-on-aptible" },
+          title: "How to Build a Breakout Game with PyGame in Python - The Python Code",
+          description: "Learn how to build a classic Breakout-style game in Python using the PyGame library, perfect for beginners in game development.",
+          img: "https://thepythoncode.com/media/articles/breakout-game-pygame-in-python.jpg",
+          tags: ["Python", "PyGame", "Game Development", "Tutorial"],
+          links: {
+            preview: "https://thepythoncode.com/article/breakout-game-pygame-in-python"
+          }
         },
         {
-          title: "Postman Guide for Beginners",
-          description: "Comprehensive introduction to API testing and collaboration using Postman, perfect for beginners.",
-          tags: ["Postman", "API Testing", "Technical Writing"],
-          links: { preview: "https://wise4rmgod.hashnode.dev/postman-guide-for-beginners-a-comprehensive-introduction-to-api-testing-and-collaboration" },
+          title: "Object-Oriented programming principles in Python",
+          description: "A practical guide to understanding and applying object-oriented programming concepts in Python with real-world examples.",
+          tags: ["Python", "OOP", "Software Design", "Technical Writing"],
+          img: "https://cdn.hashnode.com/res/hashnode/image/upload/v1694529369822/3a626b61-1883-421b-aa41-c66203ced7e9.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+          links: {
+            preview: "https://superbemiloju.hashnode.dev/object-oriented-programming-oop-concepts-in-python-with-practical-examples"
+          }
         },
         {
-          title: "Technical Writing: Key to Product Success",
-          description: "An in-depth exploration of how technical writing contributes to product success and user adoption.",
-          tags: ["Technical Writing", "Product Development", "Documentation"],
-          links: { preview: "https://builtin.com/articles/technical-writing-key-product-success" },
+          title: "How to handle media uploads in Django",
+          description: "A beginner-friendly tutorial on managing media uploads in Django applications using built-in tools and configurations.",
+          tags: ["Python", "Django", "Web Development", "File Uploads"],
+          img: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5kz266qfu5n4a7we4ptq.png",
+          links: {
+            preview: "https://dev.to/emiloju/how-to-handle-media-uploads-in-django-1kpc"
+          }
         }
-      ],
+    ]
+
     },
     userGuides: {
-      title: "User Guides",
+      title: "Conceptual articles",
       projects: [
         {
-          title: "Postman Guide for Beginners",
-          description: "Comprehensive guide to getting started with Postman for API testing and collaboration.",
-          tags: ["Postman", "API Testing", "Tutorial"],
-          links: { preview: "https://wise4rmgod.hashnode.dev/postman-guide-for-beginners-a-comprehensive-introduction-to-api-testing-and-collaboration" },
+          title: "How to Migrate Technical Documentation: Tools, Checklist, and Tips",
+          description: "A practical guide covering the essential steps, tools, and best practices for successfully migrating technical documentation.",
+          tags: ["Technical Writing", "Documentation", "Migration"],
+          img: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4dmqhuk8rfn3krj9ivo8.png",
+          links: {
+            preview: "https://dev.to/emiloju/how-to-migrate-technical-documentation-tools-checklist-and-tips-28gd"
+          }
         },
         {
-          title: "Nylas Integration Guide",
-          description: "Step-by-step guide for setting up and integrating Nylas API into applications.",
-          tags: ["Nylas", "Integration", "Setup"],
-          links: { preview: "https://developer.nylas.com/docs/v3/getting-started/set-up/#before-you-begin" },
+          title: "3 Popular AI Content Generators: Strengths and Limitations",
+          description: "An honest comparison of three popular AI-powered content generation tools, exploring their capabilities, use cases, and drawbacks.",
+          tags: ["AI Tools", "Content Creation", "Comparison"],
+          img: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*4BTOLSsXx73BPn2Ke-skFA.jpeg",
+          links: {
+            preview: "https://medium.com/@omobolanleedun/3-popular-and-affordable-ai-content-generators-strengths-and-limitations-17b57435f111"
+          }
         },
         {
-          title: "Half-Dome Labs Guide",
-          description: "Comprehensive user guide for Half-Dome Labs platform and tools.",
-          tags: ["User Guide", "Documentation", "Tools"],
-          links: { preview: "https://www.dropbox.com/scl/fi/i7cu46t2uawta12agpqpt/Half-Dome-Labs-User-guide.paper?rlkey=l5u4pkip5m4qsoa5z9yfzr0nj&dl=0" },
+          title: "Effects of AI on Technical Writing",
+          description: "An insightful article on how artificial intelligence is transforming the field of technical writing—from content creation to documentation workflows.",
+          tags: ["AI", "Technical Writing", "Trends"],
+          img: "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*mbvoSwxc4WSHj1Ti",
+          links: {
+            preview: "https://medium.com/@omobolanleedun/effects-of-ai-in-technical-writing-07b06ae8a6d8?utm_source=canva&utm_medium=iframely"
+          }
         }
       ],
+
     },
     apiDocumentation: {
       title: "API Documentation",
       projects: [
         {
-          title: "C-One API Reference",
-          description: "Comprehensive API documentation for C-One platform, including authentication and endpoint details.",
-          tags: ["API", "Technical Writing", "ReadMe"],
-          links: { preview: "https://c-one.readme.io/reference/getting-started-with-your-api" },
+          title: "The Movie Database (TMDB) API documentation",
+          description: "Revamped the TMDB API documentation, including authentication and endpoint details.",
+          tags: ["OpenAPI spec", "Postman", "Swagger", "API testing", "API", "Technical Writing", "Mintlify"],
+          links: { preview: "https://emiloju.mintlify.app/documentation/overview" },
         },
         {
-          title: "Nylas API Reference",
-          description: "Comprehensive API documentation for Nylas platform, including authentication, endpoints, and integration guides.",
-          tags: ["API", "SDK", "Email"],
-          links: { preview: "https://developer.nylas.com/docs/api/" },
+          title: "PLAID API documentation",
+          description: "A Postman documentation consisting of the first 30 endpoints of Plaid API",
+          tags: ["API", "Technical Writing", "OpenAPI spec", "Postman", "Swagger", "API testing"],
+          links: { preview: "https://documenter.getpostman.com/view/34422222/2sAYBPmEMP" },
         },
         {
-          title: "Custom API Documentation",
-          description: "Detailed Postman collection documentation for custom API endpoints and integration scenarios.",
-          tags: ["API", "Postman", "Integration"],
-          links: { preview: "https://documenter.getpostman.com/view/1835497/UzBnrSFB#intro" },
+          title: "Twilio API documentation",
+          description: "A readme documentation of Twilio's Identity Access Management (IAM) API documentation.",
+          tags: ["API", "Postman",  "API testing", "Technical Writing"],
+          links: { preview: "https://twilio-iam-remake.readme.io/reference/getting-started-with-your-api" },
         },
         {
-          title: "Orchestro AI API",
-          description: "Developer documentation for Orchestro AI platform APIs and integration patterns.",
-          tags: ["AI", "API", "ML"],
-          links: { preview: "https://developer.orchestro.ai/introduction" },
-        },
-        {
-          title: "DummyAPI Documentation",
-          description: "Swagger documentation for DummyAPI showcasing RESTful endpoints and usage examples.",
-          tags: ["API", "Swagger", "OpenAPI"],
-          links: { preview: "https://app.swaggerhub.com/apis-docs/wise4rmgod/DummyAPI/0.1" },
+          title: "PLAID API documentation (Readme.io)",
+          description: "A readme documentation of Plaid API built through an Open API spec file (in progress)",
+          tags: ["OpenAPI spec", "Postman", "Swagger", "API testing", "API", "Technical Writing", "ReadMe"],
+          links: { preview: "https://plaid-api-oas.readme.io/reference/postauthget#/" },
         }
       ],
     },
     documentationSites: {
-      title: "Developer Documentation",
+      title: "Product/Developer Documentation",
       projects: [
         {
-          title: "NeuBird AI API Guide",
-          description: "Quick start guide and API documentation for NeuBird AI platform integration.",
-          tags: ["AI", "API", "Documentation"],
-          links: { preview: "https://help.neubird.ai/introduction/quick_start/" },
+          title: "Abstract Python",
+          description: "Comprehensive documentation for the abstract-python SDK.",
+          tags: ["API", "Documentation", "Astro-starlight", "Open-source", "Python", "Vale", "Git", "CI/CD", "Docs-as-Code"],
+          links: { preview: "https://abstract-python.vercel.app/" },
         },
         {
-          title: "Technical Writing Masterclass",
-          description: "Educational platform for technical writing best practices and guidelines.",
-          tags: ["Technical Writing", "Education"],
-          links: { preview: "https://technicalwritingmp.com/" },
+          title: "Enterbox Knowledge base",
+          description: "Knowledge base for Enterbox that helps reduce support ticket and increase user adoption.",
+          tags: ["Knowledge base", "SaaS", "User guide", "Gitbook"],
+          links: { preview: "https://www.enterbox.app/knowledgebase" },
         },
-        {
-          title: "Interswitch Developer Docs",
-          description: "Developer documentation for Interswitch payment integration and services.",
-          tags: ["Payments", "Integration", "API"],
-          links: { preview: "https://docs.interswitchgroup.com/v1.1/docs/home" },
-        },
-        {
-          title: "Accumulate Network Docs",
-          description: "Technical documentation for the Accumulate blockchain network protocols and APIs.",
-          tags: ["Blockchain", "Documentation"],
-          links: { preview: "https://docs.accumulatenetwork.io" },
-        },
-        {
-          title: "Nylas Developer Portal",
-          description: "Complete developer documentation for Nylas email, calendar, and contacts APIs.",
-          tags: ["API", "Integration", "Email"],
-          links: { preview: "https://developer.nylas.com" },
-        },
-        {
-          title: "Jetpack Compose Tutorial",
-          description: "Comprehensive tutorial for Android development with Jetpack Compose.",
-          tags: ["Android", "Kotlin", "Mobile"],
-          links: { preview: "https://wise4rmgod.github.io/Jetpack-Compose-Tutorial/" },
-        },
-        {
-          title: "AI Assessment Tool",
-          description: "Documentation portal for AI assessment reporting tool with comprehensive guides and examples.",
-          tags: ["AI", "Documentation", "Assessment"],
-          links: { preview: "https://www.aiat.report/report/about" },
-        },
-        {
-          title: "Blockchain Beginner Guide",
-          description: "Educational resource for blockchain development fundamentals.",
-          tags: ["Blockchain", "Tutorial", "Web3"],
-          links: { preview: "https://beginnerblockchain.netlify.app" },
-        },
-        {
-          title: "Rootstock Developer Portal",
-          description: "Developer documentation for building on the Rootstock blockchain platform.",
-          tags: ["Blockchain", "Smart Contracts", "Web3"],
-          links: { preview: "https://dev.rootstock.io" },
-        }
-      ],
-    },
-    blockchainArticles: {
-      title: "Blockchain Office Hours",
-      projects: [
-        {
-          title: "The Graph Indexer Office Hours #160",
-          description: "Summary and insights from The Graph's indexer office hours session, covering recent updates and community discussions.",
-          tags: ["Blockchain", "The Graph", "Web3"],
-          links: { preview: "https://blog.pinax.network/events/the-graph-indexer-office-hours-160/" },
-        },
-        {
-          title: "The Graph Indexer Office Hours #159",
-          description: "Detailed coverage of The Graph's indexer office hours, including technical discussions and network updates.",
-          tags: ["Blockchain", "The Graph", "Web3"],
-          links: { preview: "https://blog.pinax.network/events/the-graph-indexer-office-hours-159/" },
-        }
       ],
     },
     openSourceContributions: {
       title: "Open Source Contributions",
       projects: [
         {
-          title: "Go Ethereum (Geth) Documentation",
-          description: "Contributed to the official documentation for Go Ethereum (Geth), the most popular Ethereum implementation.",
-          tags: ["Ethereum", "Blockchain", "Go"],
-          links: { preview: "https://geth.ethereum.org/docs/getting-started" },
+          title: "Dev Encyclopedia",
+          description: "Researched and contributed 15+ software engineering topics to the library.",
+          tags: ["Developers", "Software development", "Open-source"],
+          links: { preview: "https://devpedia.pages.dev/" },
         },
         {
-          title: "Flow Blockchain Documentation",
-          description: "Documentation contributions for Flow blockchain platform, covering developer guides and protocol specifications.",
-          tags: ["Flow", "Blockchain", "Web3"],
-          links: { preview: "https://developers.flow.com/" },
+          title: "Technical Writing Mentorship Program (TWMP)",
+          description: "Joined a team of technical writers to curate an open-source course on markdown. I wrote the guide on best practices and tips in markdown.",
+          tags: ["Markdown", "Technical Writing"],
+          links: { preview: "https://technicalwritingmp.com/docs/markdown-best-practices" },
+        },
+        {
+          title: "Technical Writing Mentorship Program (TWMP)",
+          description: "Co-developed a new and improved home page for the TWMP open-source docs during its migration from Hugo to Docusaurus",
+          tags: ["Markdown", "Technical Writing", "Hugo", "Docusuarus", "Web design & development", "React"],
+          links: { preview: "https://technicalwritingmp.com/" },
         }
       ],
     },

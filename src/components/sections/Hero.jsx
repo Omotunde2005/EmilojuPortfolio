@@ -11,9 +11,9 @@ export default function Hero() {
             sequence={[
               'Technical Documentation Engineer ✍🏾',
               2000,
-              'Building Developer Experiences ✍🏾',
+              'Software developer 🧑‍💻',
               2000,
-              'Creating API Documentation ✍🏾',
+              'Developer Advocate 🧑‍💻📢',
               2000,
             ]}
             wrapper="h1"
@@ -24,23 +24,30 @@ export default function Hero() {
           />
           <br />
           <p className="text-2xl text-gray-200">
-            Hello, World! 👋 I'm Wisdom ⚡️
+            Hello! 👋 I'm Rilwan ⚡️
           </p>
           <br />
           <p className="text-xl text-gray-300">
-            I'm known as the "Docs Guru." With over five years of experience as a Technical Writer specializing in Developer and API Documentation, 
-            <br />  <br />
-           I work with companies worldwide to showcase their innovative solutions to diverse audiences. 
-            My expertise lies in collaborating with SaaS providers. 
-            <br /> <br />
-            I am passionate about docs-as-code, open source, workflow optimization, API documentation, style guide development, and creating engaging visual resources.
+            
+              I'm a technical writer with a background in software development, specializing in creating clear, developer-friendly documentation for APIs, SaaS tools, and open-source projects.<br/><br/>
+
+              With hands-on experience in Python, FastAPI, MongoDB, and frontend tools like Reflex.dev, I bridge the gap between engineering and communication.<br/><br/>
+
+              Over the past few years, I've contributed to open source, built developer-focused tools, and documented projects using modern Docs-as-Code workflows like Mintlify and ReadMe.io.<br/><br/>
+
+              I enjoy writing tutorials, guides, and articles that not only explain how things work—but <em>why</em> they matter.<br/><br/>
+
+              Whether it's building an API from scratch, integrating role-based access control with Permit.io, or deploying interactive documentation, I focus on making complex systems approachable and usable.<br/><br/>
+
+              I'm passionate about helping teams deliver great documentation that improves user experience and reduces support overhead.
+
           </p>
         </div>
         {/* Right Image */}
         <div className="md:w-1/3 flex justify-center mt-10 md:mt-0">
           <div className="w-64 h-64 rounded-full overflow-hidden bg-gray-200">
             <img
-              src="/my-cover-image.jpg"
+              src="/emiloju.jpeg"
               alt="Profile"
               className="w-full h-full object-cover"
             />

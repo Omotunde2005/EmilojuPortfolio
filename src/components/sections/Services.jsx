@@ -5,27 +5,21 @@ export default function Services() {
   const services = [
     {
       title: "API Documentation",
-      description: "I create comprehensive API references and guides using industry-standard tools like OpenAPI, Swagger, and Postman.",
+      description: "I specialize in creating clear, structured and developer friendly API documentation that helps developers integrate faster and with confidence using industry-standard tools like OpenAPI, Postman, etc.",
       icon: <Code className="w-8 h-8 mb-4 text-purple-400" />,
-      stats: "5+ APIs documented"
+      stats: "3+ API documentation samples"
     },
     {
       title: "Technical Content",
-      description: "I author detailed technical guides, tutorials, and articles focused on developer tools and cloud technologies.",
+      description: "My writing is geared towards helping developers understand complex software development concepts, adopt new tools, and build more efficiently with modern tech stacks.",
       icon: <Files className="w-8 h-8 mb-4 text-blue-400" />,
-      stats: "70+ articles published"
+      stats: "12+ articles published"
     },
     {
-      title: "Documentation Strategy",
-      description: "I lead documentation initiatives, including content organization, style guides, and documentation workflows.",
+      title: "Documentation engineering",
+      description: "I design and maintain scalable, developer-focused documentation systems that align with the software development lifecycle. I implement Docs-as-Code workflows using tools like Markdown, Git, Vale, CI/CD pipelines, and static site generators such as Docusaurus, Astro, etc.",
       icon: <BookOpen className="w-8 h-8 mb-4 text-green-400" />,
-      stats: "5+ documentation portals"
-    },
-    {
-      title: "Technical Mentoring",
-      description: "I conduct recorded technical classes on YouTube, helping developers master documentation and technical writing.",
-      icon: <Users className="w-8 h-8 mb-4 text-yellow-400" />,
-      stats: "100+ students mentored"
+      stats: "3+ Product/developer documentation samples"
     }
   ];
 
@@ -33,11 +27,11 @@ export default function Services() {
     <section className="py-20 px-6 bg-[#1a1f2e]">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold mb-4">My Expertise 🎯</h2>
+          <h2 className="text-3xl font-bold mb-4">What I do 🎯</h2>
           <p className="text-gray-400 text-lg">A summary of my documentation and technical writing expertise</p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
           {services.map((service, index) => (
             <div 
               key={index} 
