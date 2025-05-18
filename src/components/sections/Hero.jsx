@@ -31,15 +31,13 @@ export default function Hero() {
             
               I'm a technical writer with a background in software development, specializing in creating clear, developer-friendly documentation for APIs, SaaS tools, and open-source projects.<br/><br/>
 
-              With hands-on experience in Python, FastAPI, MongoDB, and frontend tools like Reflex.dev, I bridge the gap between engineering and communication.<br/><br/>
+              With hands-on experience in Python, FastAPI, Javascript, and multiple frameworks, I bridge the gap between engineering and communication.<br/><br/>
 
-              Over the past few years, I've contributed to open source, built developer-focused tools, and documented projects using modern Docs-as-Code workflows like Mintlify and ReadMe.io.<br/><br/>
+              Over the past few years, I've contributed to open source, built developer-focused tools, and documented projects using modern Docs-as-Code workflows<br/><br/>
 
               I enjoy writing tutorials, guides, and articles that not only explain how things work—but <em>why</em> they matter.<br/><br/>
 
-              Whether it's building an API from scratch, integrating role-based access control with Permit.io, or deploying interactive documentation, I focus on making complex systems approachable and usable.<br/><br/>
-
-              I'm passionate about helping teams deliver great documentation that improves user experience and reduces support overhead.
+              I'm passionate about helping teams deliver great documentation that improves user experience and reduces support tickets.
 
           </p>
         </div>
