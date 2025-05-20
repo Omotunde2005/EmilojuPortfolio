@@ -32,13 +32,13 @@ export default function Navbar() {
         {isOpen && (
           <div className="absolute top-full left-0 w-full bg-eerieBlack text-paleDogwood shadow-lg md:hidden p-4 z-50">
             <div className="flex flex-col items-center space-y-6">
-              <a href="https://github.com/wise4rmgod" className="hover:text-blue-400 flex items-center space-x-3 text-white w-full justify-center py-3 border border-gray-700 rounded-lg">
+              <a href="https://github.com/Omotunde2005" className="hover:text-blue-400 flex items-center space-x-3 text-white w-full justify-center py-3 border border-gray-700 rounded-lg">
                 <Github /> <span>GitHub</span>
               </a>
-              <a href="https://www.linkedin.com/in/joklinztech/" className="hover:text-blue-400 flex items-center space-x-3 text-white w-full justify-center py-3 border border-gray-700 rounded-lg">
+              <a href="https://www.linkedin.com/in/edun-rilwan/" className="hover:text-blue-400 flex items-center space-x-3 text-white w-full justify-center py-3 border border-gray-700 rounded-lg">
                 <Linkedin /> <span>LinkedIn</span>
               </a>
-              <a href="mailto:wise4rmgod@gmail.com" className="hover:text-blue-400 flex items-center space-x-3 text-white w-full justify-center py-3 border border-gray-700 rounded-lg">
+              <a href="mailto:edunrilwan@gmail.com" className="hover:text-blue-400 flex items-center space-x-3 text-white w-full justify-center py-3 border border-gray-700 rounded-lg">
                 <Mail /> <span>Email</span>
               </a>
             </div>
