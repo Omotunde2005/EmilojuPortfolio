@@ -7,27 +7,13 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
         {/* Left Content */}
         <div className="font-mono md:w-2/3">
-          <TypeAnimation
-            sequence={[
-              'Technical Documentation Engineer ✍🏾',
-              2000,
-              'Software developer 🧑‍💻',
-              2000,
-              'Developer Advocate 🧑‍💻📢',
-              2000,
-            ]}
-            wrapper="h1"
-            speed={50}
-            className="text-5xl font-bold mb-6"
-            repeat={Infinity}
-            cursor={true}
-          />
+          <h1 className='text-5xl font-bold text-900'>Technical Writer ✍🏾</h1>
           <br />
           <p className="text-2xl text-gray-200">
             Hello! 👋 I'm Rilwan ⚡️
           </p>
           <br />
-          <p className="text-xl text-gray-300">
+          <p className="text-xl text-gray-300 mt-4">
             
               I'm a technical writer with a background in software development, specializing in creating clear, developer-friendly documentation for APIs, SaaS tools, and open-source projects.<br/><br/>
 
