@@ -15,15 +15,15 @@ export default function Hero() {
           <br />
           <p className="text-xl text-gray-300 mt-4">
             
-              I'm a technical writer with a background in software development, specializing in creating clear, developer-friendly documentation for APIs, SaaS tools, and open-source projects.<br/><br/>
+              I'm a technical writer with a background in software development, focused on helping companies grow by creating clear, developer-friendly documentation that improves adoption, reduces support costs, and speeds up onboarding.<br/><br/>
 
-              With hands-on experience in Python, FastAPI, Javascript, and multiple frameworks, I bridge the gap between engineering and communication.<br/><br/>
+              With hands-on experience in Python, FastAPI, JavaScript, and modern frameworks, I bridge the gap between engineering and communication by turning complex systems into accessible, actionable content.<br/><br/>
 
-              Over the past few years, I've contributed to open source, built developer-focused tools, and documented projects using modern Docs-as-Code workflows<br/><br/>
+              I’ve contributed to open source, built developer tools, and documented APIs and SaaS products using scalable Docs-as-Code workflows.<br/><br/>
 
-              I enjoy writing tutorials, guides, and articles that not only explain how things work—but <em>why</em> they matter.<br/><br/>
+              My tutorials, guides, and articles explain not just <em>how</em> things work, but <em>why</em> they matter—helping users succeed with confidence.<br/><br/>
 
-              I'm passionate about helping teams deliver great documentation that improves user experience and reduces support tickets.
+              I believe great documentation is a growth tool. I help teams turn their docs into a strategic asset that improves user experience and drives results.
 
           </p>
         </div>
